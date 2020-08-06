@@ -57,7 +57,7 @@ class CartActivity : AppCompatActivity() {
         layoutManager = LinearLayoutManager(this)
 
         val ResName = sharedPreferences.getString("res_name", "Amul")
-        txtResOrdername.text = "Ordering From : $ResName"
+        txtResOrdername.text = "Ordering From: $ResName"
 
         setUpCart()
 

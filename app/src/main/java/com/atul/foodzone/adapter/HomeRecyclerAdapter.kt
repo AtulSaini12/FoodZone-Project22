@@ -21,6 +21,7 @@ class HomeRecyclerAdapter(val context : Context,val itemList : ArrayList<Restaur
         return HomeViewHolder(view)
     }
 
+
     override fun getItemCount(): Int {
         return itemList.size
     }

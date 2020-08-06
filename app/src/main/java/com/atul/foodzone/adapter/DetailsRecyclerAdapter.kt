@@ -17,6 +17,7 @@ class DetailsRecyclerAdapter(val context: Context,val itemList: ArrayList<Detail
         return DetailsViewHolder(view)
     }
 
+
     override fun getItemCount(): Int {
         return  itemList.size
     }

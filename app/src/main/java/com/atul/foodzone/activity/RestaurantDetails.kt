@@ -92,7 +92,7 @@ class RestaurantDetails : AppCompatActivity() {
                 val async = FavouriteDB(applicationContext, favouriteEntity, 2).execute()
                 val ans = async.get()
                 if (ans) {
-                    Toast.makeText(this, "Restaurant added to Favourites", Toast.LENGTH_SHORT)
+                    Toast.makeText(this, "Restaurant removed from Favourites", Toast.LENGTH_SHORT)
                         .show()
                 } else {
                     Toast.makeText(this, "Some Error Occurred", Toast.LENGTH_SHORT).show()

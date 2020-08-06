@@ -17,6 +17,7 @@ class FaqAdapter(val context: Context,val itemList : ArrayList<QuesAns>):Recycle
         val ans = view.findViewById<TextView>(R.id.ans)
     }
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FaqViewHolder {
        val view = LayoutInflater.from(parent.context).inflate(R.layout.ques_ans_single_use,parent,false)
         return FaqViewHolder(view)

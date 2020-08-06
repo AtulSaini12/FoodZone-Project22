@@ -22,6 +22,7 @@ import org.json.JSONObject
 
 class LoginActivity : AppCompatActivity() {
     lateinit var etEnterMob : EditText
+
     lateinit var etEnterPass : EditText
     lateinit var btnLogin : Button
     lateinit var txtForgotPass : TextView

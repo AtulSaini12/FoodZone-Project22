@@ -16,6 +16,7 @@ class SplashActivity : AppCompatActivity() {
                 LoginActivity::class.java)
             startActivity(activity)
         },2000)
+
     }
 
     override fun onPause() {

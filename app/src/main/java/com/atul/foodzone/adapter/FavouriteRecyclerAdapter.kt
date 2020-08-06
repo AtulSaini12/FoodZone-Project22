@@ -22,6 +22,7 @@ class FavouriteRecyclerAdapter(val context : Context, val itemList : ArrayList<R
         return FavouriteViewHolder(view)
     }
 
+
     override fun getItemCount(): Int {
         return itemList.size
     }

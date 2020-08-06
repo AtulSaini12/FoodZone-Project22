@@ -196,6 +196,7 @@ class RegisterActivity : AppCompatActivity() {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
 
+
     override fun onBackPressed() {
         finish()
         super.onBackPressed()

@@ -16,6 +16,7 @@ class CartAdapter(val context: Context,val itemList : ArrayList<Details>) : Recy
         return CartViewHolder(view)
     }
 
+
     override fun getItemCount(): Int {
         return itemList.size
     }

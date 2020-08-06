@@ -28,6 +28,7 @@ class ResetPassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reset_password)
 
+
         sharedPreferences = getSharedPreferences(getString(R.string.preference_name), Context.MODE_PRIVATE)
 
         etOTP = findViewById(R.id.etOTP)
